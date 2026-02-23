@@ -5,7 +5,6 @@ Kindly Check it out :)
 
 LIVE Link: [View Now](https://www.BHARDWAH-0001.github.io/personal_portfolio))
 
-![mobile design](https://github.com/Jumanjigobez/personal_portfolio/assets/73429193/69ca0d10-43b8-440f-b1b2-ee5bdae29d38)
 
 
 Please Also Follow me in:
