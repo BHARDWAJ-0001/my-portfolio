@@ -4,7 +4,7 @@
     "screenshot": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80",
     "title": "Hybrid Book Recommendation System",
     "info": "Analyzed 1M+ user ratings using pandas & NumPy. Built Cosine Similarity, KNN, and SVD models for collaborative filtering. Achieved 25% improvement in accuracy with a hybrid approach, deployed via Flask ETL pipeline.",
-    "link": "https://github.com/ujjawal-bhardwaj/book-recommendation-system",
+    "link": "https://hybridbook-recommender-system.onrender.com/",
     "type": "landing_page"
   },
   {
