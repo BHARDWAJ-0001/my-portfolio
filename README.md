@@ -8,8 +8,7 @@ LIVE Link: [View Now](https://www.BHARDWAH-0001.github.io/personal_portfolio))
 
 
 Please Also Follow me in:
-- Github - [@jumanjigobez](https://www.github.com/jumanjigobez)
-- Instagram - [@jumanjicasilas](https://www.instagram.com/jumanjicasilas)
-- Youtube - [@Jumanji_Dev](https://www.youtube.com/channel/UCw3RDC7Nn5lzU15-HdOC6WA)
+- Github - [@UjjawalBhardwaj](https://github.com/BHARDWAJ-0001)
+- Linkedin - [@UjjawalBhardwaj](https://www.linkedin.com/in/ujjawal-bhardwaj-in/)
 
 Thanks in Advance for being my follower and giving a Star :)
