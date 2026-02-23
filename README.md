@@ -3,10 +3,8 @@ A simple, professional and  mobile friendly portfolio webpage coded using HTML, 
 I created my own JSON data for my projects done.
 Kindly Check it out :)
 
-LIVE Link: [View Now](https://www.jumanjigobez.github.io/personal_portfolio)
+LIVE Link: [View Now](https://www.BHARDWAH-0001.github.io/personal_portfolio))
 
-## Screenshots
-![portfolio](https://user-images.githubusercontent.com/73429193/187241803-749486eb-ccba-4b31-8025-c24aeef3b638.png)
 ![mobile design](https://github.com/Jumanjigobez/personal_portfolio/assets/73429193/69ca0d10-43b8-440f-b1b2-ee5bdae29d38)
 
 
