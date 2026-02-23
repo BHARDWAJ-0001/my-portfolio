@@ -3,7 +3,7 @@ A simple, professional and  mobile friendly portfolio webpage coded using HTML, 
 I created my own JSON data for my projects done.
 Kindly Check it out :)
 
-LIVE Link: [View Now](https://BHARDWAH-0001.github.io/personal_portfolio))
+LIVE Link: [View Now](https://bhardwaj-0001.github.io/my-portfolio/)
 
 
 
