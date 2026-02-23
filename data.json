@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "screenshot": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=600&q=80",
+    "title": "Hybrid Book Recommendation System",
+    "info": "Analyzed 1M+ user ratings using pandas & NumPy. Built Cosine Similarity, KNN, and SVD models for collaborative filtering. Achieved 25% improvement in accuracy with a hybrid approach, deployed via Flask ETL pipeline.",
+    "link": "https://github.com/ujjawal-bhardwaj/book-recommendation-system",
+    "type": "landing_page"
+  },
+  {
+    "id": 2,
+    "screenshot": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&q=80",
+    "title": "Travel Booking Analytics System",
+    "info": "Designed a normalized relational database for a travel platform. Built advanced SQL queries for CLV, conversion rates, and seasonal trends. Power BI dashboards identified 15% revenue growth. Query optimization reduced retrieval time by 40%.",
+    "link": "https://github.com/ujjawal-bhardwaj/travel-booking-analytics",
+    "type": "personal_project"
+  },
+  {
+    "id": 3,
+    "screenshot": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80",
+    "title": "EDA on Book Ratings Dataset (Kaggle)",
+    "info": "Performed in-depth EDA on 1M+ Kaggle book ratings to identify user behavior patterns, book popularity trends, and rating distributions using Python, pandas, Matplotlib, and Seaborn.",
+    "link": "https://github.com/ujjawal-bhardwaj",
+    "type": "api"
+  },
+  {
+    "id": 4,
+    "screenshot": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80",
+    "title": "Power BI KPI Dashboard",
+    "info": "Interactive Power BI dashboard with real-time KPI tracking, revenue distribution by region, and customer segmentation. Enabled stakeholders to identify and act on business opportunities across underperforming markets.",
+    "link": "https://github.com/ujjawal-bhardwaj",
+    "type": "personal_project"
+  },
+  {
+    "id": 5,
+    "screenshot": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=600&q=80",
+    "title": "SQL Advanced Queries — Travel Analytics",
+    "info": "Advanced SQL using joins, aggregations, window functions, and subqueries to extract booking insights including customer lifetime value, conversion rates, and seasonal demand patterns from a normalized MySQL database.",
+    "link": "https://github.com/ujjawal-bhardwaj",
+    "type": "api"
+  },
+  {
+    "id": 6,
+    "screenshot": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=600&q=80",
+    "title": "Collaborative Filtering with SVD & KNN",
+    "info": "Built and benchmarked multiple recommender models — Cosine Similarity, K-Nearest Neighbors (KNN), and SVD — for collaborative filtering. Compared performance using precision and recall metrics with cross-validation.",
+    "link": "https://github.com/ujjawal-bhardwaj",
+    "type": "landing_page"
+  },
+  {
+    "id": 7,
+    "screenshot": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80",
+    "title": "Flask ETL Data Pipeline",
+    "info": "Automated data pipeline built using Flask for preprocessing, feature engineering, and model scoring. Streamlined the ETL transformation workflow significantly reducing analysis turnaround time.",
+    "link": "https://github.com/ujjawal-bhardwaj",
+    "type": "formal_project"
+  },
+  {
+    "id": 8,
+    "screenshot": "https://images.unsplash.com/photo-1543286386-713bdd548da4?w=600&q=80",
+    "title": "Database Schema Design — Travel Platform",
+    "info": "Designed a fully normalized relational database schema for a travel booking platform, optimized for complex analytical queries across user demographics, booking patterns, and revenue metrics in MySQL.",
+    "link": "https://github.com/ujjawal-bhardwaj",
+    "type": "formal_project"
+  },
+  {
+    "id": 9,
+    "screenshot": "images/portfolio.png",
+    "title": "Personal Portfolio Website",
+    "info": "This portfolio you are currently viewing! Built with HTML, CSS, and JavaScript, featuring a dynamic project loader from JSON, animated skill bars, project filters, and a live contact form.",
+    "link": "#",
+    "type": "personal_project"
+  }
+]

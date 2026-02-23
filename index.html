@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      description="Data Analyst Portfolio"
+      content="Portfolio of Ujjawal Bhardwaj – Data Analyst specializing in Python, SQL, Power BI, and Machine Learning."
+    />
+    <title>Ujjawal Bhardwaj | Data Analyst Portfolio</title>
+    <link rel="shortcut icon" type="image/png" href="images/homepic.png" />
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css"> 
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <script defer src="data.json"></script>
+  </head>
+
+  <body>
+    <div class="preloader" id="preloader">
+      <div class="counter" id="counter">0</div>
+      <div class="text" id="text">Welcome To <span>Ujjawal's Portfolio...</span></div>
+    </div>
+
+    <header id="header">
+      <div class="logo">
+        <h1>Ujjawal<span>Bhardwaj</span></h1>
+      </div>
+      <div class="menu">
+        <div id="menu_btn">
+          <p onclick="toggleMenu(this);"><i class="fa fa-bars"></i></p>
+        </div>
+        <nav>
+          <ul id="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="section_1">
+        <div class="part_1">
+          <img src="images/ujjawal.jpg" alt="Ujjawal Bhardwaj" style="border-radius:50%; object-fit:cover; width:300px; height:300px;" />
+        </div>
+        <div class="part_2">
+          <p>
+            Hello, <span id="visitor"></span><br />
+            My name is <br /><b>Ujjawal Bhardwaj</b> <br />And I'm a:
+          </p>
+
+          <div class="typing_part">
+            <p><span class="typing"></span></p>
+          </div>
+
+          <a href="#contact"
+            ><button class="btn">
+              Hire Me <i class="fa fa-arrow-down" id="down"></i></button
+          ></a>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="part_1">
+          <h2>About Me</h2>
+        </div>
+        <div class="part_2">
+          <div class="image_part">
+            <img src="images/ujjawal.jpg" alt="Ujjawal Bhardwaj" style="object-fit:cover; border-radius:10px;" />
+          </div>
+
+          <div class="info">
+            <h3>I'm Juma & I’m a:</h3>
+            <marquee>
+              Data Analyst &middot; Python Developer &middot; ML Engineer &middot; Power BI Developer &middot; SQL Expert
+            </marquee>
+            <p>
+              I'm a passionate Data Analyst with an MCA from Galgotias University, specializing in Python, SQL, Power BI, and Machine Learning.
+              I transform raw data into actionable insights through EDA, predictive modeling, ETL pipelines, and interactive dashboards.
+              Thanks for stopping by my portfolio — I'd love to connect and explore how we can work together, <b><span id="visitor"></span></b>!
+            </p>
+            <button
+            class="btn"
+            onclick="window.location.href='mailto:bhardwajujjawal07@gmail.com?subject=Resume%20Request&body=Hi%20Ujjawal,%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20review%20your%20resume.%0A%0AThanks!'"
+          >
+            Request Resume
+          </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="part_1">
+          <h2>My Services</h2>
+        </div>
+
+        <div class="part_2">
+          <div class="box">
+            <h4>Data Analysis & EDA</h4>
+            <p>
+              I perform <b>exploratory data analysis</b> and statistical modeling using Python (Pandas, NumPy) to uncover patterns, trends, and actionable insights from complex datasets.
+            </p>
+          </div>
+        
+          <div class="box">
+            <h4>Data Visualization & BI</h4>
+            <p>
+              I build <b>interactive dashboards</b> and compelling reports using Power BI, Tableau, Matplotlib, and Seaborn to make data-driven storytelling clear and impactful.
+            </p>
+          </div>
+        
+          <div class="box">
+            <h4>Machine Learning & Predictive Modeling</h4>
+            <p>
+              I design and deploy <b>ML models</b> — from regression and decision trees to recommendation systems — using scikit-learn, with proper feature engineering and cross-validation.
+            </p>
+          </div>
+        
+          <div class="box">
+            <h4>SQL & Database Management</h4>
+            <p>
+              I write advanced <b>SQL queries</b> with joins, window functions, and subqueries, and manage MySQL databases with optimized indexing and query performance tuning.
+            </p>
+          </div>
+        
+          <div class="box">
+            <h4>ETL & Data Pipeline Development</h4>
+            <p>
+              I develop <b>ETL pipelines</b> to extract, clean, transform, and load data from multiple sources, automating reporting workflows and ensuring data integrity at scale.
+            </p>
+          </div>
+        
+          <div class="box">
+            <h4>A/B Testing & Statistical Analysis</h4>
+            <p>
+              I conduct rigorous <b>A/B tests</b> and hypothesis testing to validate product decisions, combining statistical reasoning with business context for confident recommendations.
+            </p>
+          </div>
+        </div>
+        
+      </section>
+
+      <section id="skills">
+        <div class="part_1">
+          <h2>My Skills</h2>
+        </div>
+
+        <div class="part_2">
+          <div class="info">
+            <h3>My Technical & Analytical Expertise:</h3>
+            <p>
+             I am a highly skilled Data Analyst and Machine Learning practitioner with a strong foundation in
+             statistical reasoning, data wrangling, and business intelligence.
+             My expertise spans Python, SQL, Power BI, and cloud tools, enabling me to build end-to-end data solutions.
+             Below is a summary of my core technical competencies:
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="skills">
+              <div class="skill-name">Python (Pandas, NumPy, scikit-learn)</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="92%"
+                  id="skill"
+                  style="max-width: 92%"
+                ></div>
+              </div>
+
+              <div class="skill-name">SQL & Database Management</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="90%"
+                  id="skill"
+                  style="max-width: 90%"
+                ></div>
+              </div>
+
+              <div class="skill-name">Power BI & Tableau</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="88%"
+                  id="skill"
+                  style="max-width: 88%"
+                ></div>
+              </div>
+
+              <div class="skill-name">Machine Learning & Statistical Modeling</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="85%"
+                  id="skill"
+                  style="max-width: 85%"
+                ></div>
+              </div>
+              
+              <div class="skill-name">Excel (Advanced, VLOOKUP, Pivot Tables)</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="95%"
+                  id="skill"
+                  style="max-width: 95%"
+                ></div>
+              </div>
+              
+              <div class="skill-name">Data Visualization (Matplotlib, Seaborn)</div>
+              <div class="skill-bar">
+                <div
+                  class="skill-per"
+                  per="85%"
+                  id="skill"
+                  style="max-width: 85%"
+                ></div>
+              </div>
+            </div>
+
+            <div class="button">
+              <button class="btn" id="more_btn">
+                More Skills <i class="fa fa-arrow-down" id="down"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="part_3" id="more_card" style="display: none">
+          <div class="card">
+            <div class="skill-name">A/B Testing & Hypothesis Testing</div>
+            <div class="skill-bar">
+              <div
+                class="skill-per"
+                per="82%"
+                id="skill"
+                style="max-width: 82%"
+              ></div>
+            </div>
+
+            <div class="skill-name">ETL & Data Pipeline Development</div>
+            <div class="skill-bar">
+              <div
+                class="skill-per"
+                per="80%"
+                id="skill"
+                style="max-width: 80%"
+              ></div>
+            </div>
+
+            <div class="skill-name">AWS Cloud Services</div>
+            <div class="skill-bar">
+              <div
+                class="skill-per"
+                per="75%"
+                id="skill"
+                style="max-width: 75%"
+              ></div>
+            </div>
+
+            <div class="skill-name">Flask & RESTful APIs</div>
+            <div class="skill-bar">
+              <div
+                class="skill-per"
+                per="78%"
+                id="skill"
+                style="max-width: 78%"
+              ></div>
+            </div>
+
+            <div class="skill-name">Git & GitHub</div>
+            <div class="skill-bar">
+              <div
+                class="skill-per"
+                per="85%"
+                id="skill"
+                style="max-width: 85%"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section id="certifications">
+        <div class="part_1">
+          <h2>Certifications</h2>
+        </div>
+        <div class="part_2" style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center; padding:20px;">
+          <div class="box" style="max-width:350px; text-align:left;">
+            <h4><i class="fa fa-certificate" style="color:#4CAF50;"></i> Introduction to Big Data — NPTEL</h4>
+            <p><b>IIT/IISc</b> | Data Processing, Distributed Computing, Hadoop, Spark, Analytics Fundamentals</p>
+            <p style="color:#888; font-size:0.9em;">Oct 2024</p>
+          </div>
+          <div class="box" style="max-width:350px; text-align:left;">
+            <h4><i class="fa fa-certificate" style="color:#4CAF50;"></i> Web Full Stack Development — AICTE Eduskills</h4>
+            <p><b>AICTE</b> | Data Integration, API Development, Database Management, RESTful Services</p>
+            <p style="color:#888; font-size:0.9em;">Dec 2024</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="part_1">
+          <h2>My Projects</h2>
+        </div>
+
+        <div class="filter_bar">
+          <ul>
+            <li onclick="handleFilter(this,'all')">
+              All <span class="project_count count_all">0</span>
+            </li>
+            <li onclick="handleFilter(this,'landing_page')">
+              ML Projects <span class="project_count count_landing">0</span>
+            </li>
+            <li onclick="handleFilter(this,'api')">
+              EDA Projects <span class="project_count count_api">0</span>
+            </li>
+            <li onclick="handleFilter(this,'personal_project')">
+              Dashboards <span class="project_count count_personal">0</span>
+            </li>
+            <!-- <li onclick="handleFilter(this,'react_project')">React Projects</li> -->
+            <li onclick="handleFilter(this,'formal_project')">
+              Capstone Projects <span class="project_count count_formal">0</span>
+            </li>
+            </li>
+          </ul>
+        </div>
+
+        <div class="filter_bar mobile">
+          <select class="custom_select" onchange="handleFilter(this, this.value)"> 
+            <option value="all">All</option> 
+            <option value="landing_page">ML Projects</option> 
+            <option value="api">EDA Projects</option> 
+            <option value="personal_project">Dashboards</option> 
+            <option value="formal_project">Capstone Projects</option>
+          </select>
+        </div>
+        
+        <div class="part_2">
+          <div class="loading_screen">
+            <div class="boxLoading"></div>
+          </div>
+
+          <div class="container">
+            <!--- Projects will be dynamically shown from local json data--->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="part_1">
+          <h2>Contact me</h2>
+        </div>
+
+        <div class="part_2">
+          <div class="info">
+            <h3>Get in Touch</h3>
+            <p>
+              Hi there, <span id="visitor"></span>! I hope you enjoyed the view.
+              If you have any projects or services you'd like to see executed
+              with precision and flair, don't hesitate to reach out. I'll be
+              sure to respond promptly.
+            </p>
+            <p>
+              Even if it's just to say hello, I'd love to hear from you. Let's
+              connect over a cup of coffee! :)
+            </p>
+
+            <ul>
+              <li>
+                <i class="fa fa-user"></i>
+                <h4>Name</h4>
+                <p>Ujjawal Bhardwaj</p>
+              </li>
+              <li>
+                <i class="fa fa-map-marker"></i>
+                <h4>Address</h4>
+                <p>Noida, India</p>
+              </li>
+              <li>
+                <i class="fa fa-phone"></i>
+                <h4>Phone</h4>
+                <p>+91-9631921902</p>
+              </li>
+              <li>
+                <i class="fa fa-envelope"></i>
+                <h4>Email</h4>
+                <p>bhardwajujjawal07@gmail.com</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact_form">
+            <h3>Say Hello :</h3>
+
+            <form class="cform">
+             
+             <div class="input-data">
+               <input type="text" name="name" required="">
+               <label>Full Name</label>
+               <div class="line"></div>
+             </div>
+             
+              <div class="input-data">
+               <input type="email" name="email" required="">
+               <label>Your Email</label>
+               <div class="line"></div>
+             </div>
+             
+              <div class="input-data">
+               <input type="text" name="subject" required="">
+               <label>The Subject</label>
+               <div class="line"></div>
+             </div>
+             
+              <div class="input-data">
+               <textarea name="msg" required=""></textarea>
+               <label>Your Message</label>
+               <div class="line1"></div>
+             </div>
+             
+              <div class="input-data">
+                <button class="btn send_btn" name="send" type="submit">Send Message <i class="fa fa-arrow-right"></i></button>
+             </div>
+             
+           </form>
+
+            <!-- <div class="c_box">
+              <div class="icon">
+            onclick="window.location.href='mailto:bhardwajujjawal07@gmail.com?subject=Resume%20Request&body=Hi%20Ujjawal,%0A%0AI%20came%20across%20your%20portfolio%20and%20would%20love%20to%20review%20your%20resume.%0A%0AThanks!'"
+                  ><img src="images/gmail.png" alt="Gmail Icon"
+                /></a>
+              </div>
+
+              <div class="icon">
+                <h1>OR</h1>
+              </div>
+
+              <div class="icon">
+                <a href="https://wa.me/919631921902" target="_blank"
+                  ><img src="images/whatsapp.png" alt="Whatsapp Icon"
+                /></a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <section id="section_7">
+          <div class="mapouter">
+            <div class="gmap_canvas">
+              <iframe
+                class="gmap_iframe"
+                width="100%"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Noida, Uttar Pradesh, India&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe
+              ><a href="https://www.embedmymap.com/">Embed My Map</a>
+            </div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 500px;
+              }
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 500px;
+              }
+              .gmap_iframe {
+                height: 500px !important;
+              }
+            </style>
+          </div>
+        </section>
+      </section>
+
+      <!---Sidebar items of social media icons--->
+      <div id="sidebar">
+        <div id="sidebar_items">
+          <ul>
+            <li>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                ><i class="fa fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                ><i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/" target="_blank"
+                ><i class="fa fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/ujjawal-bhardwaj-in" target="_blank"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://github.com/ujjawal-bhardwaj" target="_blank"
+                ><i class="fa fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://wa.me/919631921902" target="_blank"
+                ><i class="fa fa-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <h2>Coded with <i class="fa fa-heart"></i> by Ujjawal</h2>
+        <p>Ujjawal Bhardwaj | &copy 2026 All rights reserved</p>
+
+        <div id="top">
+          <p>
+            <a href="#section_1"><i class="fa fa-arrow-up"></i></a>
+          </p>
+        </div>
+      </footer>
+    </main>
+    <script src="script/script.js"></script>
+    <script type="text/javascript">
+      (function(){
+         emailjs.init({
+           publicKey: "jPipT_8KPqvqvDiNh",
+         });
+      })();
+   </script>
+  </body>
+</html>
+
