@@ -1,14 +1,38 @@
 # My Personal Portfolio
-A simple, professional and  mobile friendly portfolio webpage coded using HTML, CSS and JavaScript.
-I created my own JSON data for my projects done.
-Kindly Check it out :)
 
-LIVE Link: [View Now](https://bhardwaj-0001.github.io/my-portfolio/)
+A simple, professional, and mobile-friendly portfolio webpage.
 
+🔗 **Live:** [bhardwaj-0001.github.io/my-portfolio](https://bhardwaj-0001.github.io/my-portfolio/)
 
+---
 
-Please Also Follow me in:
-- Github - [@UjjawalBhardwaj](https://github.com/BHARDWAJ-0001)
-- Linkedin - [@UjjawalBhardwaj](https://www.linkedin.com/in/ujjawal-bhardwaj-in/)
+## Features
 
-Thanks in Advance for being my follower and giving a Star :)
+- Responsive design for all screen sizes
+- Custom JSON-driven projects section
+- Clean, minimal UI
+
+---
+
+## Tech Stack
+
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+---
+
+## Screenshots
+
+> *(Add a screenshot here — drag an image into this file or paste a URL)*
+
+---
+
+## Connect
+
+- GitHub — [@UjjawalBhardwaj](https://github.com/BHARDWAJ-0001)
+- LinkedIn — [@UjjawalBhardwaj](https://www.linkedin.com/in/ujjawal-bhardwaj-in/)
+
+---
+
+⭐ If you like this project, consider giving it a star!
