@@ -22,9 +22,7 @@ A simple, professional, and mobile-friendly portfolio webpage.
 
 ---
 
-## Screenshots
 
-> *(Add a screenshot here — drag an image into this file or paste a URL)*
 
 ---
 
