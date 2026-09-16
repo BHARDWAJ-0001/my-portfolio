@@ -1,128 +1,261 @@
-# Ujjawal Bhardwaj
+# `UJ/01` — Ujjawal Bhardwaj
 
-### Software Developer · AI Systems · Backend · Automation · Machine Learning · VR
+```text
+SOFTWARE DEVELOPER
+──────────────────────────────────────────────────────────────
+AI SYSTEMS     BACKEND     AUTOMATION     ML     VR
 
-I build software systems that combine **intelligence, automation, and engineering** — from AI-powered desktop workflows and backend applications to machine learning systems and immersive VR experiences.
+STATUS        BUILDING
+MODE          ENGINEERING
+LOCATION      INDIA
+```
 
-**MCA · Software Developer · India**
+> **I build systems that think, automate, execute, and interact.**
+
+This repository is not just a portfolio.
+
+It is a snapshot of how I build software —
+**what I work on, how I think about systems, and what I am currently engineering.**
 
 ---
 
-## Selected Work
+## `01 / IDENTITY`
 
-### AERIS
+I’m **Ujjawal Bhardwaj**, a Software Developer with an MCA background.
+
+My work sits at the intersection of:
+
+```text
+                 ┌──────────────────┐
+                 │    SOFTWARE      │
+                 └────────┬─────────┘
+                          │
+          ┌───────────────┼───────────────┐
+          ↓               ↓               ↓
+       INTELLIGENCE    AUTOMATION      SYSTEMS
+          │               │               │
+          ↓               ↓               ↓
+         AI              TOOLS          BACKEND
+          │                               │
+          └──────────────┬────────────────┘
+                         ↓
+                    REAL PRODUCTS
+```
+
+I enjoy working on software where different engineering layers come together rather than existing in isolation.
+
+---
+
+## `02 / CURRENT SYSTEMS`
+
+### `AERIS`
 
 **Personal AI Operating System**
 
-A modular, voice-first AI system designed around reasoning, tool execution, desktop automation, browser control, memory, and proactive task execution.
+```text
+VOICE
+  ↓
+REASON
+  ↓
+OBSERVE
+  ↓
+ACT
+  ↓
+VERIFY
+  ↓
+RECOVER
+```
 
-**Python · Gemini Live API · PyQt6 · SQLite**
+A modular AI system built around LLM reasoning, desktop automation, browser control, persistent local memory, OCR, scheduling and tool-driven execution.
 
----
-
-### NCL VR Training Simulation
-
-**Professional VR Development**
-
-VR-based training simulation for Northern Coalfields Limited focused on mining traffic operations and safety training.
-
-**Unity · C# · Meta Quest / Oculus**
-
----
-
-### Hybrid Book Recommendation System
-
-**Machine Learning · Recommendation Systems**
-
-An end-to-end recommendation engine combining content-based and collaborative filtering approaches using cosine similarity, KNN, and SVD.
-
-**Python · Flask · scikit-learn · pandas · NumPy**
+`Python` · `Gemini Live API` · `PyQt6` · `SQLite`
 
 ---
 
-## Engineering Focus
+### `NCL // VR TRAINING`
+
+**Immersive Safety Training Simulation**
+
+A professional VR development project for Northern Coalfields Limited, focused on mining traffic operations and safety training.
 
 ```text
-AI & Automation
-        │
-        ├── Intelligent Agents
-        ├── Desktop Automation
-        ├── Browser Control
-        └── Local AI Memory
+UNITY
+  ↓
+C# LOGIC
+  ↓
+VR INTERACTION
+  ↓
+SIMULATION
+  ↓
+META QUEST
+```
 
-Backend Engineering
-        │
-        ├── REST APIs
-        ├── Django / Flask
-        ├── Authentication
-        └── Database Systems
+`Unity` · `C#` · `Meta Quest / Oculus`
 
-Machine Learning
-        │
-        ├── Recommendation Systems
-        ├── KNN
-        ├── SVD
-        └── Similarity Models
+---
 
-Immersive Technology
-        │
-        ├── Unity
-        ├── C#
-        ├── VR Interaction
-        └── Meta Quest
+### `HYBRID // RECOMMENDER`
+
+**Machine Learning Recommendation System**
+
+A recommendation engine combining multiple approaches instead of relying on a single model.
+
+```text
+CONTENT-BASED ─────┐
+                    ├──→ HYBRID RECOMMENDATION
+COLLABORATIVE ──────┘
+
+KNN · SVD · COSINE SIMILARITY
+```
+
+`Python` · `Flask` · `scikit-learn` · `pandas` · `NumPy`
+
+---
+
+## `03 / ENGINEERING DNA`
+
+Instead of one narrow stack, I work across several layers:
+
+| Layer        | Systems I work with                      |
+| ------------ | ---------------------------------------- |
+| `LANG`       | Python · C# · Java · JavaScript          |
+| `BACKEND`    | Django · Flask · REST APIs               |
+| `FRONTEND`   | React · JavaScript · HTML · CSS          |
+| `DATA`       | PostgreSQL · MySQL · SQL                 |
+| `AI / ML`    | scikit-learn · pandas · NumPy            |
+| `AUTOMATION` | Tool-driven workflows · API integrations |
+| `VR`         | Unity · C# · Meta Quest                  |
+| `DEV`        | Git · GitHub · Docker · AWS              |
+
+---
+
+## `04 / HOW I BUILD`
+
+```text
+PROBLEM
+   │
+   ▼
+UNDERSTAND
+   │
+   ▼
+DESIGN
+   │
+   ▼
+BUILD
+   │
+   ▼
+TEST
+   │
+   ▼
+DEBUG
+   │
+   ▼
+ITERATE
+   │
+   ▼
+SHIP
+```
+
+The focus is not simply writing code.
+
+The goal is to understand the system, build the right abstraction, test the behavior, debug what breaks, and keep improving the implementation.
+
+---
+
+## `05 / THIS PORTFOLIO`
+
+The website behind this repository is designed as a **Developer Command Center**.
+
+Instead of presenting a conventional resume page, it brings together:
+
+```text
+PROFILE
+PROJECTS
+EXPERIENCE
+ENGINEERING STACK
+JOURNEY
+CERTIFICATIONS
+CONTACT
+```
+
+### Interface
+
+* Dark / light experience
+* Command palette
+* Interactive project presentation
+* AERIS system visualization
+* VR work showcase
+* Certificate preview
+* Responsive layout
+* Resume access
+* Direct professional links
+
+Built as a lightweight static website without requiring an external runtime framework.
+
+---
+
+## `06 / REPOSITORY`
+
+```text
+ujjawal_portfolio/
+│
+├── index.html          ← command center
+├── data.json           ← portfolio data
+├── 404.html
+│
+├── style/
+│   └── style.css       ← interface system
+│
+├── script/
+│   └── script.js       ← interactions
+│
+├── images/
+│   └── ...             ← visual assets
+│
+└── README.md
 ```
 
 ---
 
-## Tech Stack
+## `07 / PRINCIPLE`
 
-**Languages**
-Python · C# · Java · JavaScript
+```text
+BUILD REAL.
+LEARN DEEPLY.
+DEBUG RELENTLESSLY.
+KEEP IMPROVING.
+```
 
-**Backend & APIs**
-Django · Flask · REST APIs · JWT · Swagger · Postman
+No fabricated projects.
+No invented employers.
+No artificial achievements.
 
-**Frontend**
-HTML5 · CSS3 · JavaScript · React.js · Bootstrap
-
-**Data & ML**
-scikit-learn · pandas · NumPy · KNN · SVD · Cosine Similarity
-
-**Databases**
-MySQL · PostgreSQL · SQL
-
-**Tools & Platforms**
-Git · GitHub · Docker · AWS · .NET · Unity · Visual Studio
+Just the work, the technologies behind it, and the engineering journey.
 
 ---
 
-## Portfolio
+## `08 / CONNECT`
 
-This repository contains my personal developer portfolio — a focused presentation of my:
-
-**Projects → Experience → Engineering Stack → Journey → Certifications**
-
-The portfolio is built as a lightweight static experience with a responsive interface, dark/light theme, interactive navigation, project showcases, certificate previews, and direct professional links.
-
----
-
-## Connect
-
-**GitHub**
-[@BHARDWAJ-0001](https://github.com/BHARDWAJ-0001)
-
-**LinkedIn**
-[linkedin.com/in/ujjawalbhardwaj-in](https://linkedin.com/in/ujjawalbhardwaj-in)
-
-**Email**
-[bhardwajujjawal07@gmail.com](mailto:bhardwajujjawal07@gmail.com)
+```text
+GITHUB     →  github.com/BHARDWAJ-0001
+LINKEDIN   →  linkedin.com/in/ujjawalbhardwaj-in
+EMAIL      →  bhardwajujjawal07@gmail.com
+```
 
 ---
 
-### Ujjawal Bhardwaj
-
-**Software Developer**
-
-*AI · Backend · Automation · ML · VR*
-
-> Building systems where software doesn't just respond — it thinks, acts, and executes.
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                                                              │
+│   UJJAWAL BHARDWAJ                                           │
+│                                                              │
+│   SOFTWARE DEVELOPER                                         │
+│                                                              │
+│   AI  ·  BACKEND  ·  AUTOMATION  ·  ML  ·  VR              │
+│                                                              │
+│   ────────────────────────────────────────────────────────   │
+│                                                              │
+│   BUILDING SYSTEMS, NOT JUST FEATURES.                       │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
