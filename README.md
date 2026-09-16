@@ -1,225 +1,128 @@
-# Ujjawal Bhardwaj — Developer Portfolio
+# Ujjawal Bhardwaj
 
-> **Software Developer building AI systems, backend applications, automation workflows, machine learning solutions, and immersive VR experiences.**
+### Software Developer · AI Systems · Backend · Automation · Machine Learning · VR
 
-A premium, responsive developer portfolio showcasing my professional experience, selected projects, technical skills, engineering journey, and certifications.
+I build software systems that combine **intelligence, automation, and engineering** — from AI-powered desktop workflows and backend applications to machine learning systems and immersive VR experiences.
 
----
-
-## ✦ About
-
-I’m a **Software Developer with an MCA background**, focused on building practical software systems across:
-
-* 🤖 **AI & Intelligent Automation**
-* ⚙️ **Backend & API Development**
-* 🧠 **Machine Learning**
-* 🛠️ **Software Engineering & Automation**
-* 🥽 **VR Application Development**
-* 🗄️ **Database-Driven Applications**
-
-The portfolio is designed as a **developer command center** rather than a conventional resume website, with interactive navigation and dedicated showcases for major engineering work.
+**MCA · Software Developer · India**
 
 ---
 
-## 🚀 Featured Work
+## Selected Work
 
-### AERIS — Personal AI Operating System
+### AERIS
 
-A modular, voice-first personal AI system integrating:
+**Personal AI Operating System**
 
-* LLM reasoning
-* Desktop automation
-* Browser control
-* Tool-driven agent workflows
-* Persistent local memory
-* Knowledge retrieval
-* Scheduling
-* OCR and screen understanding
-* Permission controls
-* Audit logging
-* Observe → Act → Verify → Recover orchestration
+A modular, voice-first AI system designed around reasoning, tool execution, desktop automation, browser control, memory, and proactive task execution.
 
-Built with **Python, Google Gemini Live API, PyQt6 and SQLite**.
+**Python · Gemini Live API · PyQt6 · SQLite**
 
 ---
 
-### ⛏️ NCL VR Training Simulation
+### NCL VR Training Simulation
 
-Professional VR development work for **Northern Coalfields Limited (NCL)**.
+**Professional VR Development**
 
-The project focuses on a VR-based training simulation for mining traffic operations and safety training.
+VR-based training simulation for Northern Coalfields Limited focused on mining traffic operations and safety training.
 
-Work includes:
-
-* Unity/C# development
-* VR interaction systems
-* Application logic
-* Feature implementation
-* Testing and debugging
-* Unity project builds
-* APK packaging for Meta Quest/Oculus
+**Unity · C# · Meta Quest / Oculus**
 
 ---
 
-### 📚 Hybrid Book Recommendation System
+### Hybrid Book Recommendation System
 
-An end-to-end machine-learning recommendation engine combining:
+**Machine Learning · Recommendation Systems**
 
-* Content-based filtering
-* Collaborative filtering
-* Cosine similarity
-* KNN
-* SVD
-* Data processing with pandas & NumPy
-* Flask-based application development
+An end-to-end recommendation engine combining content-based and collaborative filtering approaches using cosine similarity, KNN, and SVD.
 
-The system works with a large-scale user-rating dataset and combines multiple recommendation approaches.
+**Python · Flask · scikit-learn · pandas · NumPy**
 
 ---
 
-## 🧰 Engineering Stack
-
-### Languages
-
-`Python` · `C#` · `Java` · `JavaScript`
-
-### Backend & Web
-
-`Django` · `Flask` · `REST APIs` · `JWT` · `Swagger` · `Postman`
-
-### Frontend
-
-`HTML5` · `CSS3` · `JavaScript` · `React.js` · `Bootstrap` · `Responsive Web Design`
-
-### Data & Machine Learning
-
-`scikit-learn` · `pandas` · `NumPy` · `KNN` · `SVD` · `Cosine Similarity`
-
-### Databases
-
-`MySQL` · `PostgreSQL` · `SQL` · `Database Design & Optimization`
-
-### Tools & Platforms
-
-`Git` · `GitHub` · `AWS` · `Docker` · `Visual Studio` · `.NET` · `Unity`
-
----
-
-## ✨ Portfolio Features
-
-* ◈ Premium responsive interface
-* ◈ Dark / Light theme
-* ◈ Interactive **Command Palette**
-* ◈ AERIS architecture visualization
-* ◈ Professional experience showcase
-* ◈ Project-focused presentation
-* ◈ Engineering stack overview
-* ◈ Career journey timeline
-* ◈ Certification showcase
-* ◈ Certificate preview modal
-* ◈ Resume download
-* ◈ GitHub / LinkedIn / Email CTAs
-* ◈ Mobile-responsive navigation
-* ◈ Scroll progress and reveal interactions
-* ◈ Static deployment ready
-
----
-
-## 🎯 Design Philosophy
-
-The portfolio is intentionally built around **clarity, engineering identity, and real work**.
-
-Instead of presenting a collection of generic sections, the interface is structured to communicate:
+## Engineering Focus
 
 ```text
-Profile
-   ↓
-Engineering Focus
-   ↓
-Featured Systems
-   ↓
-Technical Stack
-   ↓
-Professional Experience
-   ↓
-Journey & Certifications
-   ↓
-Connect
-```
+AI & Automation
+        │
+        ├── Intelligent Agents
+        ├── Desktop Automation
+        ├── Browser Control
+        └── Local AI Memory
 
-The content avoids fabricated employers, projects, awards, metrics, or achievements.
+Backend Engineering
+        │
+        ├── REST APIs
+        ├── Django / Flask
+        ├── Authentication
+        └── Database Systems
 
----
+Machine Learning
+        │
+        ├── Recommendation Systems
+        ├── KNN
+        ├── SVD
+        └── Similarity Models
 
-## 📁 Project Structure
-
-```text
-ujjawal_portfolio/
-│
-├── index.html
-├── README.md
-├── 404.html
-├── data.json
-│
-├── script/
-│   └── script.js
-│
-├── style/
-│   └── style.css
-│
-└── images/
-    ├── ujjawal.jpg
-    ├── gmail.png
-    └── whatsapp.png
+Immersive Technology
+        │
+        ├── Unity
+        ├── C#
+        ├── VR Interaction
+        └── Meta Quest
 ```
 
 ---
 
-## 🌐 Deployment
+## Tech Stack
 
-The portfolio is a static website and can be deployed using:
+**Languages**
+Python · C# · Java · JavaScript
 
-* **GitHub Pages**
-* **Netlify**
-* **Vercel**
-* Any standard static web server
+**Backend & APIs**
+Django · Flask · REST APIs · JWT · Swagger · Postman
 
-### GitHub Pages
+**Frontend**
+HTML5 · CSS3 · JavaScript · React.js · Bootstrap
 
-Configure GitHub Pages to deploy from:
+**Data & ML**
+scikit-learn · pandas · NumPy · KNN · SVD · Cosine Similarity
 
-```text
-Branch: main
-Folder: /
-```
+**Databases**
+MySQL · PostgreSQL · SQL
 
----
-
-## 📄 Resume
-
-The portfolio includes a downloadable resume containing my education, technical skills, professional experience, projects, and certifications.
+**Tools & Platforms**
+Git · GitHub · Docker · AWS · .NET · Unity · Visual Studio
 
 ---
 
-## 🔗 Connect
+## Portfolio
+
+This repository contains my personal developer portfolio — a focused presentation of my:
+
+**Projects → Experience → Engineering Stack → Journey → Certifications**
+
+The portfolio is built as a lightweight static experience with a responsive interface, dark/light theme, interactive navigation, project showcases, certificate previews, and direct professional links.
+
+---
+
+## Connect
 
 **GitHub**
-github.com/BHARDWAJ-0001
+[@BHARDWAJ-0001](https://github.com/BHARDWAJ-0001)
 
 **LinkedIn**
-linkedin.com/in/ujjawalbhardwaj-in
+[linkedin.com/in/ujjawalbhardwaj-in](https://linkedin.com/in/ujjawalbhardwaj-in)
 
 **Email**
 [bhardwajujjawal07@gmail.com](mailto:bhardwajujjawal07@gmail.com)
 
 ---
 
-## 👨‍💻 Developer
+### Ujjawal Bhardwaj
 
-**Ujjawal Bhardwaj**
+**Software Developer**
 
-Software Developer · AI Systems · Backend · Automation · ML · VR
+*AI · Backend · Automation · ML · VR*
 
----
-
-> *Building software that doesn't just work — it solves real problems.*
+> Building systems where software doesn't just respond — it thinks, acts, and executes.
